@@ -347,9 +347,68 @@ color: #FFFFFF;
 display: none;
 }
 
-#inf a img{
-  margin-top: 50px;
-  margin-bottom: 50px;
+#bluewall {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+@media (max-width: 1370px) {
+  nav ul li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    justify-content: center;
+    padding: 17px;
+  }
+
+  #textmarg {
+    width: 50%;
+  }
+
+  #logot {
+    width: 100%;
+    height: 100%;
+  }
+
+  #buttonclr {
+    border-radius: 30px;
+    padding: 13px 65px;
+    background: #FFA800;
+    color:#FFFF;
+    margin-bottom: 0%;
+  }
+
+  #textform {
+    font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: center;
+  color: #2F4858;
+  text-transform: uppercase;
+  margin-bottom: 5%;
+  }
+
+  #buttonclr2 {
+      padding: 17px 70px;
+      margin-top: 4%;
+  }
+
+  #quest {
+    margin-top: 9%;
+    margin-left: 10%;
+  }
+
+  #mark {
+    text-align: left;
+    margin-right: 150px;
+  }
 }
 
 @media (max-width: 1205px) {
