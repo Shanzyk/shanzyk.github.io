@@ -347,6 +347,11 @@ color: #FFFFFF;
 display: none;
 }
 
+#inf a img{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 @media (max-width: 1205px) {
   #logo1 {
     width: 120.95px;
@@ -572,6 +577,11 @@ display: none;
     color: #FFFFFF;
     display: flex;
     }
+
+    #inf a img{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 365px) {
@@ -648,11 +658,6 @@ font-size: 14px;
 line-height: 17px;
 color: #FFFFFF;
 top: 50px;
-}
-
-#inf a img{
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 #tab {
