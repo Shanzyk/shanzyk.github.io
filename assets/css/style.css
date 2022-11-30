@@ -331,7 +331,7 @@ padding-bottom: 3%;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
-font-size: 14px;
+font-size: 12px;
 line-height: 17px;
 color: #FFFFFF;
 display:none;
@@ -474,7 +474,9 @@ display: none;
   
   #inf.col{
     text-align: left;
-    margin-top: -50px;
+    margin-top: -70px;
+    padding-left: 20px;
+    padding-bottom: 0px;
   }
 
   #inf p {
@@ -562,6 +564,7 @@ display: none;
 
   #footermark2{
     display: flex;
+    font-size: 10px;
     }
 
     #logot {
